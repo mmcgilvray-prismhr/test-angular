@@ -7,7 +7,7 @@
     "build": "echo \"Building application...\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "coverage": "ng test --code-coverage --no-watch --no-progress"
+    "coverage": "ng test --code-coverage --no-watch --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
