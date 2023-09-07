@@ -14,6 +14,16 @@ jobs:
           node-version: '14.x'
       - run: npm ci
       - run: npm run test:report
-      - name: Coverage Badge
-        uses: we-cli/coverage-badge-action@v1.0.1
+      - name: Code Coverage Report
+        uses: irongut/CodeCoverageSummary@v1.3.0
+        with:
+          filename: coverage/**/cobertura-coverage.xml
+          badge: true
+          fail_below_min: true
+          format: markdown
+          hide_branch_rate: false
+          hide_complexity: true
+          indicators: true
+          output: both
+          thresholds: '60 80'
       - run: npm run build

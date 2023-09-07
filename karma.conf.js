@@ -29,7 +29,7 @@ module.exports = function (config) {
       subdir: '.',
       reporters: [
         { type: 'text' },
-        { type: 'json-summary' }
+        { type: 'cobertura' }
       ],
       check: {
         emitWarning: true,
