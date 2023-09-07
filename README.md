@@ -1,4 +1,7 @@
 # TestAngular
+[![develop build status](https://github.com/mmcgilvray-prismhr/test-angular/actions/workflows/develop.yml/badge.svg?branch=develop)](https://github.com/mmcgilvray-prismhr/test-angular/actions)
+[![feature/QR202311 build status](https://github.com/mmcgilvray-prismhr/test-angular/actions/workflows/QR.yml/badge.svg?branch=feature/QR202311)](https://github.com/mmcgilvray-prismhr/test-angular/actions)
+[![cov](https://mmcgilvray-prismhr.github.io/test-angular/badges/coverage.svg)](https://github.com/mmcgilvray-prismhr/test-angular/actions)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
