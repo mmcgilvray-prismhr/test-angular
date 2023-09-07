@@ -29,7 +29,7 @@ module.exports = function (config) {
       subdir: '.',
       reporters: [
         { type: 'html' },
-        { type: 'text' },
+        { type: 'lcovonly' },
         { type: 'json-summary' }
       ]
     },
