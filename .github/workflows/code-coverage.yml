@@ -9,6 +9,7 @@ jobs:
   run-code-coverage:
     name: Code Coverage Test
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -33,4 +34,3 @@ jobs:
         with:
           recreate: true
           path: code-coverage-results.md
-          GITHUB_TOKEN: ${{ github.token }}
