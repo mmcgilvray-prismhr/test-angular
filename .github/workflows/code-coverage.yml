@@ -36,3 +36,4 @@ jobs:
         uses: ewjoachim/coverage-comment-action@v1
         with:
           GITHUB_TOKEN: ${{ github.token }}
+          COVERAGE_FILE: coverage/cobertura-coverage.xml
