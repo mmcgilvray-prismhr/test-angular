@@ -29,7 +29,7 @@ module.exports = function (config) {
       subdir: '.',
       reporters: [
         { type: 'text' },
-        { type: 'cobertura' },
+        // { type: 'cobertura' },
         { type: 'lcov' },
       ],
       check: {

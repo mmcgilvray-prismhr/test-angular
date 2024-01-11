@@ -32,11 +32,13 @@ jobs:
       #     thresholds: '60 80'
       #     fail_below_min: false
       # - name: Add Coverage PR Comment
-      - name: Display coverage
-        uses: ewjoachim/coverage-comment-action@v1
-        with:
-          GITHUB_TOKEN: ${{ github.token }}
-          COVERAGE_FILE: coverage/cobertura-coverage.xml
+
+      # - name: Display coverage
+      #   uses: ewjoachim/coverage-comment-action@v1
+      #   with:
+      #     GITHUB_TOKEN: ${{ github.token }}
+      #     COVERAGE_FILE: coverage/cobertura-coverage.xml
+      
       - name: Generate Code Coverage report
         id: code-coverage
         uses: barecheck/code-coverage-action@v1
