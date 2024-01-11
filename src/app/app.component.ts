@@ -11,4 +11,15 @@ export class AppComponent {
   public testFunc() {
     return "test";
   }
+
+  public aNewFunction() {
+    console.log('test123')
+    console.log('test123')
+    console.log('test123')
+    console.log('test123')
+    console.log('test123')
+    console.log('test123')
+    console.log('test123')
+
+  }
 }
