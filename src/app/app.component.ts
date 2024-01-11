@@ -20,6 +20,9 @@ export class AppComponent {
     console.log('test123')
     console.log('test123')
     console.log('test123')
+  }
 
+  public test123(){
+    return 'hi';
   }
 }
